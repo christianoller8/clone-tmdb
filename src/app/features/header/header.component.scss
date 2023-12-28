@@ -1,0 +1,46 @@
+* {
+    color: white;
+    background-color: rgb(3, 37, 65 );
+    
+}
+.header {
+    height: 35px;
+    width: auto;
+    color: white;
+}
+
+.header:hover{
+    color: yellow;
+    
+}
+
+.section1 {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-tmdb {
+    width: 22%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1rem;
+}
+
+.section2 {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px;
+}
+
+.button1 {
+    display: flex;
+    margin-top: 5px;
+    border-radius: 20%;
+    border-color: white;
+
+}
+
+li {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}

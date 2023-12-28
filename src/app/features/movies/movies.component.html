@@ -1,0 +1,23 @@
+<!-- <div>
+  <h1>{{ movie.title }}</h1>
+  <p>{{ movie.overview }}</p>
+</div> -->
+
+
+<div class="container">
+  <div *ngFor="let movie of movies" class="row mb-4">
+      <div class="col-md-6">
+          <h1>{{ movie.title }}</h1>
+          <p>{{ movie.overview }}</p>
+          <p>{{ movie.id }}</p>
+      </div>
+      <div class="col-md-6">
+          <picture>
+              <img src="{{ 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/' + movie.backdrop_path }}" class=" images img-fluid rounded mx-auto d-block" alt="Poster de la película">
+          </picture>
+      </div>
+  </div>
+</div>
+
+
+
